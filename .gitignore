@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local secrets / vars
+*.tfvars
+!example.tfvars
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~

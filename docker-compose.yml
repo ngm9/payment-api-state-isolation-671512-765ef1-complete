@@ -1,0 +1,7 @@
+services:
+  localstack:
+    image: localstack/localstack:3.4
+    container_name: payment-api-localstack
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment: []
